@@ -127,7 +127,7 @@ dependencies:
       - markupsafe==3.0.2
       - matplotlib-inline==0.1.7
       - mistune==3.1.2
-      - narwhals==1.32.0
+      - mlxtend==0.23.4
       - nbclient==0.10.2
       - nbconvert==7.16.6
       - nbformat==5.10.4
@@ -138,12 +138,12 @@ dependencies:
       - pandocfilters==1.5.1
       - parso==0.8.4
       - platformdirs==4.3.6
-      - plotly==6.0.1
       - prometheus-client==0.21.1
       - prompt-toolkit==3.0.50
       - psutil==7.0.0
       - pure-eval==0.2.3
       - pycparser==2.22
+      - pydotplus==2.0.2
       - pygments==2.19.1
       - python-json-logger==3.2.1
       - pywin32==308
@@ -171,4 +171,4 @@ dependencies:
       - webcolors==24.11.1
       - webencodings==0.5.1
       - websocket-client==1.8.0
-prefix: C:\Users\A\.conda\envs\tum_py313
+prefix: C:\Users\pawel\.conda\envs\tum_py313
