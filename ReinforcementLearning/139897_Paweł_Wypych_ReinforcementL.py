@@ -44,7 +44,12 @@ def choose_action(state, q_table, epsilon):
     else:
         return np.argmax(q_table[state])
 
-
+'''
+    alpha: współczynnik uczenia.
+    gamma: współczynnik dyskontowania nagród.
+    epsilon: współczynnik eksploracji.
+    epsilon_decay: szybkość zmniejszania ε.
+'''
 def q_learning(env, episodes=1000, alpha=0.01, gamma=0.99, epsilon=1.0, epsilon_decay=0.995, min_epsilon=0.01):
     bins = create_bins()
     q_table = init_q_table()
@@ -82,7 +87,12 @@ def q_learning(env, episodes=1000, alpha=0.01, gamma=0.99, epsilon=1.0, epsilon_
 
     return rewards_per_episode, q_table
 
-
+'''
+    alpha: współczynnik uczenia.
+    gamma: współczynnik dyskontowania nagród.
+    epsilon: współczynnik eksploracji.
+    epsilon_decay: szybkość zmniejszania ε.
+'''
 def sarsa(env, episodes=1000, alpha=0.01, gamma=0.99, epsilon=1.0, epsilon_decay=0.995, min_epsilon=0.01):
     bins = create_bins()
     q_table = init_q_table()
